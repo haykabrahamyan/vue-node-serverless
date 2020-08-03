@@ -9,5 +9,5 @@
 - `cp .env.example .env # Optional: make a changes in the environment if needed`
 
 ## Run
-`npm run serve # From client directory`
-`sls offline # From server directory`
+- `npm run serve # From client directory`
+- `sls offline # From server directory`
