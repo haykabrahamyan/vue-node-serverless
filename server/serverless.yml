@@ -1,0 +1,16 @@
+service: test
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  load:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: GET
+
+plugins:
+  - serverless-offline
